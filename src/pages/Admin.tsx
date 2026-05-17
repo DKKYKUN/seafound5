@@ -239,7 +239,7 @@ const AdminLogin = () => {
           <Lock className="w-7 h-7 text-navy" />
         </div>
         <h1 className="font-display font-bold text-2xl text-navy text-center mt-5">Admin Login</h1>
-        <p className="text-center text-xs text-muted-foreground mt-1">Username: admin · Password: admin123</p>
+        <p className="text-center text-xs text-muted-foreground mt-1">Username: · Password: </p>
         <div className="mt-6 space-y-4">
           <input value={u} onChange={(e) => setU(e.target.value)} placeholder="Username"
             className="w-full px-4 py-3 rounded-xl border border-border focus:border-turquoise outline-none text-sm" />
