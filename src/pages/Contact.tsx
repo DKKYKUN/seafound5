@@ -23,7 +23,7 @@ const Contact = () => {
           {[
             { icon: Phone, t: "WhatsApp Admin", v: "+62 812 3456 789", href: waLink("6281234567890", "Halo SeaFound, saya butuh bantuan.") },
             { icon: Mail, t: "Email", v: "hello@seafound.id", href: "mailto:hello@seafound.id" },
-            { icon: MapPin, t: "Lokasi", v: "Jakarta, Indonesia", href: "#" },
+            { icon: MapPin, t: "Lokasi", v: "Bengkulu, Indonesia", href: "#" },
           ].map(c => (
             <a key={c.t} href={c.href} target="_blank" rel="noreferrer"
               className="flex items-center gap-4 p-5 bg-white rounded-2xl shadow-card hover:shadow-soft hover:-translate-y-0.5 transition">
