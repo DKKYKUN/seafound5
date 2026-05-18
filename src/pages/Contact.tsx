@@ -21,7 +21,7 @@ const Contact = () => {
       <div className="mt-12 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
         <div className="space-y-5">
           {[
-            { icon: Phone, t: "WhatsApp Admin", v: "+62 812 3456 789", href: waLink("6281234567890", "Halo SeaFound, saya butuh bantuan.") },
+            { icon: Phone, t: "WhatsApp Admin", v: "+62 895-4283-66663", href: waLink("62895428366663", "Halo SeaFound, saya butuh bantuan.") },
             { icon: Mail, t: "Email", v: "hello@seafound.id", href: "mailto:hello@seafound.id" },
             { icon: MapPin, t: "Lokasi", v: "Bengkulu, Indonesia", href: "#" },
           ].map(c => (
