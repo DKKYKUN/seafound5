@@ -48,7 +48,7 @@ export const Footer = () => (
           <ul className="space-y-2.5 text-sm text-white/70">
             <li className="flex items-start gap-2">
               <Phone className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
-              <span>+62 812 3456 789</span>
+              <span>+62 895-4283-66663</span>
             </li>
             <li className="flex items-start gap-2">
               <Mail className="w-3.5 h-3.5 mt-0.5 flex-shrink-0" />
@@ -78,7 +78,7 @@ export const Footer = () => (
       {/* Bottom bar */}
       <div className="relative mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/40">
         <span>© {new Date().getFullYear()} SeaFound. All Rights Reserved.</span>
-        <span>Dibuat dengan ❤️ untuk nelayan Indonesia</span>
+        <span>Dibuat untuk nelayan Indonesia</span>
       </div>
     </div>
   </footer>
