@@ -34,7 +34,7 @@ const Contact = () => {
               </div>
             </a>
           ))}
-          <a href={waLink("6281234567890", "Halo SeaFound!")} target="_blank" rel="noreferrer"
+          <a href={waLink("62895428366663", "Halo SeaFound!")} target="_blank" rel="noreferrer"
             className="flex items-center justify-center gap-2 w-full py-4 rounded-2xl bg-[#25D366] text-white font-semibold shadow-card hover:opacity-90 transition">
             <MessageCircle className="w-5 h-5"/> Chat WhatsApp Sekarang
           </a>
